@@ -3,24 +3,26 @@ package edu.felipe.tiposdevariaveis;
 public class TiposVariaveis {
      public static void main(String [] args){
         byte idade = 123;
-        short quantidadeDeDentes = 32;
-        int populacaoAtual = 2000000000;
-        long populacaoTotal = 1000000000000000000L;
-        float preco = 3.5f;
-        double precoComVirgula = 3.50;
-        char letra = 'A';
-        boolean estaAtivo = true;
+        short ano = 2021;
+        int cep = 21770080;
+        long cpf = 17172315782L;
+        float preco = 329.99f;
+        final double PI = 3.14159;   
 
-        System.out.println("Byte: " + idade);
-        System.out.println("Short: " + quantidadeDeDentes);
-        System.out.println("Int: " + populacaoAtual);
-        System.out.println("Long: " + populacaoTotal);
-        System.out.println("Float: " + preco);
-        System.out.println("Double: " + precoComVirgula);
-        System.out.println("Char: " + letra);
-        System.out.println("Boolean: " + estaAtivo);
+        System.out.println(idade);
+        System.out.println(ano);
+        System.out.println(cep);
+        System.out.println(cpf);
+        System.out.println(preco);
+        System.out.println(PI);
 
-        String nome = "Felipe";
-        System.out.println("String: " + nome);
+        String meuNome = "FELIPE";
+        ano = 2022;
+        System.out.println("Meu nome é " + meuNome);
+        System.out.println("Meu nome é " + meuNome + "e tenho " + ano + " anos");
+
+        ano = 2023;
+        System.out.println("Meu nome é " + meuNome);
+        System.out.println("Meu nome é " + meuNome + "e tenho " + ano + " anos");
      }
 }
