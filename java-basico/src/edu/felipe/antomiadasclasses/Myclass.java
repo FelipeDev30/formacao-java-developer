@@ -1,3 +1,4 @@
+package edu.felipe.antomiadasclasses;
 import java.util.Scanner;
 
 public class Myclass {
@@ -19,3 +20,4 @@ public class Myclass {
         return nome.concat(" ").concat(sobrenome);
     }
 }
+
