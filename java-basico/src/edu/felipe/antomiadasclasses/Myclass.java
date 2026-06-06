@@ -14,6 +14,7 @@ public class Myclass {
 
         String nomeCompleto = nomeCompleto(nome, sobrenome);
         System.out.println("O nome completo é: " + nomeCompleto);
+        scan.close();
     }
 
     public static String nomeCompleto (String nome, String sobrenome) {
