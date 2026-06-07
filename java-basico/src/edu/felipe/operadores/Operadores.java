@@ -1,8 +1,24 @@
 package edu.felipe.operadores;
 
 public class Operadores {
-    public static void main(String [] args) {
+    public static void main(String[] args) {
         /*        
+            Operadores Unários
+            +           Adição
+            -           Subtração
+            ++          Incremento
+            --          Decremento
+            !           Negação
+            ~           Inversão lógica
+            (int)       Conversão de tipo
+
+            Operadores de Atribuição
+            +=          Adição
+            -=          Subtração
+            *=          Multiplicação
+            /=          Divisão
+            %=          Módulo / resto
+
             Operadores Aritiméticos
 
             =            Operador de atribuição
@@ -25,7 +41,7 @@ public class Operadores {
             ||         OU
             !          NÃO
         */
-       
+
         double peso = 90.7;
         double altura = 1.60;
 
