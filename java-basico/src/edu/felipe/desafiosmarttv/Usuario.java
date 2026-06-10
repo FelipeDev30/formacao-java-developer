@@ -5,11 +5,11 @@ public class Usuario {
         SmartTv smartTv = new SmartTv();
 
         smartTv.ligar();
-        
+
         smartTv.aumentarVolume();
         smartTv.aumentarVolume();
     
-        smartTv.mudarCanal(13);
+        smartTv.mudarCanal();
 
         smartTv.desligar();
 

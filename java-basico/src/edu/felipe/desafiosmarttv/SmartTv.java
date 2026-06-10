@@ -1,26 +1,23 @@
 package edu.felipe.desafiosmarttv;
 
+import java.util.Scanner;
+
 public class SmartTv {
+
+    Scanner scan = new Scanner(System.in);
+
     boolean ligada = false;
     int canal = 1;
     int volume = 25;
 
     public void ligar() {
         ligada = true;
-        if (ligada == true) {
-            System.out.println("TV ligada");
-        } else {
-            System.out.println("TV desligada");
-        }
+        System.out.println("TV ligada");
     }
 
     public void desligar() {
         ligada = false;
-        if (ligada == false) {
-            System.out.println("TV desligada");
-        } else {
-            System.out.println("TV ligada");
-        }
+        System.out.println("TV desligada");
     }
 
     public void aumentarVolume() {
@@ -59,14 +56,22 @@ public class SmartTv {
         }
     }
 
+    public void mudarCanal() {
+        int novoCanal = scan.nextInt();
+        if (novoCanal > 0 && novoCanal < 100) {
+            canal = novoCanal;
+            System.out.println("Canal atual: " + canal);
+        } else {
+            System.out.println("Canal inválido");
+        }
+    }
+
     public void mudarCanal(int novoCanal) {
-        canal = novoCanal;
-        if (canal > 0 && canal < 100) {
+        if (novoCanal > 0 && novoCanal < 100) {
+            canal = novoCanal;
             System.out.println("Canal atual: " + canal);
         } else {
             System.out.println("Canal inválido");
         }
     }
 }
-
-
