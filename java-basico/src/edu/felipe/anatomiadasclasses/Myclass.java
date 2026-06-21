@@ -1,9 +1,10 @@
-package edu.felipe.antomiadasclasses;
+package edu.felipe.anatomiadasclasses;
+
 import java.util.Scanner;
 
 public class Myclass {
-    
-    public static void main (String [] args) {
+
+    public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Digite seu nome: ");
@@ -17,8 +18,7 @@ public class Myclass {
         scan.close();
     }
 
-    public static String nomeCompleto (String nome, String sobrenome) {
+    public static String nomeCompleto(String nome, String sobrenome) {
         return nome.concat(" ").concat(sobrenome);
     }
 }
-
