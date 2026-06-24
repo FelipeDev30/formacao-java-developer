@@ -1,8 +1,8 @@
-package edu.felipe.anatomiadasclasses;
+package edu.felipe.anatomia;
 
 import java.util.Scanner;
 
-public class Myclass {
+public class MyClass {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

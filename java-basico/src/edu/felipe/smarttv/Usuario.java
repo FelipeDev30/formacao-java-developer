@@ -1,4 +1,4 @@
-package edu.felipe.desafiosmarttv;
+package edu.felipe.smarttv;
 
 public class Usuario {
     public static void main(String[] args) throws Exception {

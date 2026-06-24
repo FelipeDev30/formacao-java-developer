@@ -1,4 +1,4 @@
-package edu.felipe.desafiosmarttv;
+package edu.felipe.smarttv;
 
 import java.util.Scanner;
 

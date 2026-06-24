@@ -1,4 +1,4 @@
-package edu.felipe.tiposdevariaveis;
+package edu.felipe.variaveis;
 
 public class TiposVariaveis {
      public static void main(String [] args){
