@@ -27,12 +27,17 @@ public class Conta {
     }
 
     public double calcularDividaExponencial() {
+        // variável local ao método calcularDividaExponencial
         double valorParcela = 50.0;
+        // variável local ao método calcularDividaExponencial
         double valorMontante = 0.0;
+        // variável local ao método calcularDividaExponencial e ao laço for
         for (int x = 1; x <= 5; x++) {
+            // variável local ao método calcularDividaExponencial e ao laço for
             double valorCalculado = valorParcela * x;
             valorMontante = valorMontante + valorCalculado;
         }
+        // variável local ao método calcularDividaExponencial
         return valorMontante;
     }
 }
