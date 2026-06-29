@@ -23,5 +23,5 @@ public class TiposVariaveis {
         meuNome = "Rodrigo Lamas";
         ano = 28;
         System.out.println("Meu nome é " + meuNome + "e tenho " + ano + " anos");
-     }
+   }
 }
