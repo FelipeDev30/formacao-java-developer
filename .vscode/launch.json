@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TiposVariaveis",
+            "request": "launch",
+            "mainClass": "edu.felipe.variaveis.TiposVariaveis",
+            "projectName": "formacao-java-developer_636c18e5"
+        },
+        {
+            "type": "java",
+            "name": "Usuario",
+            "request": "launch",
+            "mainClass": "edu.felipe.smarttv.Usuario",
+            "projectName": "formacao-java-developer_636c18e5"
+        },
+        {
+            "type": "java",
+            "name": "Operadores",
+            "request": "launch",
+            "mainClass": "edu.felipe.operadores.Operadores",
+            "projectName": "formacao-java-developer_636c18e5"
+        },
+        {
+            "type": "java",
+            "name": "Conta",
+            "request": "launch",
+            "mainClass": "edu.felipe.escopo.Conta",
+            "projectName": "formacao-java-developer_636c18e5"
+        },
+        {
+            "type": "java",
+            "name": "MyClass",
+            "request": "launch",
+            "mainClass": "edu.felipe.anatomia.MyClass",
+            "projectName": "formacao-java-developer_636c18e5"
+        },
+        {
+            "type": "java",
             "name": "Teste",
             "request": "launch",
             "mainClass": "edu.felipe.exemplo.Teste",
