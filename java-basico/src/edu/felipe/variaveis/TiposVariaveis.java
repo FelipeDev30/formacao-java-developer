@@ -1,27 +1,39 @@
 package edu.felipe.variaveis;
 
+import java.util.Scanner;
+
+
 public class TiposVariaveis {
      public static void main(String [] args){
-        byte idade = 123;
-        short ano = 32;
-        int cep = 21770080;
-        long cpf = 17172315782L;
-        float preco = 329.99f;
-        final double PI = 3.14159;   
+        int idade;
+        int ano;
+        String cep;
+        String cpf;
+        float preco;
+        double PI;   
+        
+        Scanner sc = new Scanner(System.in);
 
-        System.out.println(idade);
-        System.out.println(ano);
-        System.out.println(cep);
-        System.out.println(cpf);
-        System.out.println(preco);
-        System.out.println(PI);
+        System.out.println("Digite sua idade");
+        idade = sc.nextInt();
+        System.out.println("Digite o ano");
+        ano = sc.nextInt();
+        System.out.println("Digite o cep");
+        cep = sc.next();
+        System.out.println("Digite o cpf");
+        cpf = sc.next();
+        System.out.println("Digite o preco");
+        preco = sc.nextFloat();
+        System.out.println("Digite PI");
+        PI = sc.nextDouble();
+        
+        System.out.println("Idade:"+ idade);
+        System.out.println("Ano:"+ ano);
+        System.out.println("Cep:"+ cep);
+        System.out.println("Cpf:"+ cpf);
+        System.out.println("Preco:"+ preco);
+        System.out.println("PI:"+ PI);
 
-        String meuNome = "Felipe Lamas";
-        ano = 32;
-        System.out.println("Meu nome é " + meuNome + "e tenho " + ano + " anos");
-
-        meuNome = "Rodrigo Lamas";
-        ano = 28;
-        System.out.println("Meu nome é " + meuNome + "e tenho " + ano + " anos");
+        sc.close();
    }
 }
